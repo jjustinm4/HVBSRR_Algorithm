@@ -11,6 +11,7 @@ Containment for Scope: Element [e_y0, e_y1] within anchor [a_y0, a_y1] if a_y0 â
 Overlap for Column Assignment: Max ov = max(0, min(el_x1, h_x1) - max(el_x0, h_x0)); assign if ov / el_w > 0.5, where el_w = el_x1 - el_x0.
 
 No line equations used; all operations on 1D projections of 2D AABBs (axis-aligned bounding boxes). Geometry: Projections reduce 2D to 1D intervals for containment/overlap checks.
+Author :  JUSTIN.M
 """
 import pymupdf
 from collections import Counter, defaultdict
