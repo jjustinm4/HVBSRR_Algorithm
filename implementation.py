@@ -440,4 +440,4 @@ def process_pdf_tables(pdf_path):
 
 
 if __name__ == "__main__":
-    process_pdf_tables("aplio_trim.pdf")
+    process_pdf_tables("YOUR_PDF.pdf")
